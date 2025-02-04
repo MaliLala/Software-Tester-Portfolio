@@ -15,6 +15,8 @@ Reviews must be moderated to filter out inappropriate content (e.g., offensive l
 
 
 
+
+
 3. Age Verification for Alcoholic Products
    
 Requirement:
@@ -27,6 +29,8 @@ If the user is under 18, they must be redirected away from the alcoholic product
 If the user is 18 or older, they gain access to the section.
 
 The system should remember verified users for the session but must require verification again on a new session.
+
+
 
 
 5. Shipping Cost Changes
