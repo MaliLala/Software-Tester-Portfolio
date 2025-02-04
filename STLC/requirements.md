@@ -17,7 +17,7 @@ Reviews must be moderated to filter out inappropriate content (e.g., offensive l
 
 
 
-3. Age Verification for Alcoholic Products
+2. Age Verification for Alcoholic Products
    
 Requirement:
 When a user navigates to the Alcoholic Products category, a modal popup must appear asking for age verification.
@@ -33,7 +33,7 @@ The system should remember verified users for the session but must require verif
 
 
 
-5. Shipping Cost Changes
+3. Shipping Cost Changes
    
 Requirement:
 Orders over $50 (example amount, configurable by admin) qualify for free shipping.
@@ -70,7 +70,7 @@ Will there be a moderation process before a review is published?
 
 
 
-3. Age Verification for Alcoholic Products
+2. Age Verification for Alcoholic Products
 
    
 Will age verification apply to guests, or only logged-in users?
@@ -87,7 +87,7 @@ What happens if a user enters an age under 18—will they be restricted from the
 
 
 
-5. Shipping Cost Changes
+3. Shipping Cost Changes
 
    
 What is the exact threshold for free shipping, and is it configurable by admins?
