@@ -1,6 +1,7 @@
 Test Plan for GroceryMate Webshop
 
 
+
 1. Analyze the Product
 
 ObjectiveThe objective of this test plan is to make sure the new features of the GroceryMate webshop work as expected and that users don’t run into any weird issues. We want to make sure everything is smooth and makes sense for the customers.
