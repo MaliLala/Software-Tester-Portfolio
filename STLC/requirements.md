@@ -45,3 +45,59 @@ The shipping fee must be clearly displayed at checkout before final payment.
 Discounts applied after adding items to the cart should not affect free shipping eligibility.
 
 The system must handle varied shipping costs for different regions, with a proper cost calculation system in place.
+
+
+
+
+Questions
+
+
+
+1. Product Rating System
+
+   
+Should all users be able to see product ratings, or only registered users?
+
+Can users edit or delete their reviews after submission?
+
+Is there a word limit for written feedback?
+
+Will there be a report or flagging system for inappropriate reviews?
+
+How will the overall product rating be calculated (e.g., average of all ratings, weighted by recency)?
+
+Will there be a moderation process before a review is published?
+
+
+
+3. Age Verification for Alcoholic Products
+
+   
+Will age verification apply to guests, or only logged-in users?
+
+Can a user bypass the age verification by refreshing the page or using incognito mode?
+
+Is there any legal compliance requirement (e.g., storing age verification logs)?
+
+Should age verification be repeated every time a user visits, or should it be remembered for a session?
+
+How will the system handle incorrect age entries (e.g., mistyped birthdate)?
+
+What happens if a user enters an age under 18—will they be restricted from the entire store or just alcoholic products
+
+
+
+5. Shipping Cost Changes
+
+   
+What is the exact threshold for free shipping, and is it configurable by admins?
+
+Will taxes be included in the free shipping threshold calculation?
+
+How will the system handle multiple shipping addresses in the same order?
+
+If a user removes an item from the cart and drops below the free shipping amount, will the fee be automatically added?
+
+Will the shipping cost be dynamically updated in the cart, or only at checkout?
+
+Will users be notified when they are close to the free shipping threshold?
