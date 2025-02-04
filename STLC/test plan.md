@@ -1,147 +1,129 @@
+Test Plan for GroceryMate Webshop
 
-# **Test Plan for Social Media Platform Enhancements**
 
-## **1. Analyze the Product**
+1. Analyze the Product
 
-### **Objective**
+ObjectiveThe objective of this test plan is to make sure the new features of the GroceryMate webshop work as expected and that users don’t run into any weird issues. We want to make sure everything is smooth and makes sense for the customers.
+User Base
+Everyday people looking to buy groceries online.
+Users of different ages, especially those buying alcoholic products.
+People with accounts who leave reviews and ratings.
+Visitors who just want to browse around.
 
-The primary objective of the product is to enhance the existing social media platform by introducing new features and ensuring the smooth functioning of existing functionalities.
+Hardware and Software Specifications
 
-### **User Base**
+Hardware Requirements
+Devices: Computers, laptops, smartphones, tablets.
+Specs: Standard configurations for Android and iOS devices, desktops with minimum 4GB RAM, 2GHz processor.
 
-The product will be used by existing and new users of the social media platform, including individuals aged 16 and above, who may opt for a premium subscription to remove ads and who can share personal stories on their profiles.
+Software Requirements
 
-### **Hardware and Software Specifications**
+OS: Windows, macOS, Android, iOS.
+Browsers: Chrome, Firefox, Safari, Edge.
+Dependencies: Backend services, third-party payment processing, authentication, etc.
 
-- **Hardware Requirements:**
-    - Devices: PCs, laptops, smartphones, tablets
-    - Specifications: Standard configurations for Android and iOS devices, desktops with minimum 4GB RAM, 2GHz processor
-- **Software Requirements:**
-    - Operating Systems: Windows, macOS, Android, iOS
-    - Browsers: Chrome, Firefox, Safari, Edge
-    - Dependencies: Backend services, third-party ad services, payment gateways
 
-### **Product Functionality**
+Product Functionality
 
-The product allows users to:
+Existing Features:Register/login functionality.
+Searching, sorting, filtering products.
+Favoriting products.
+Adding products to the basket.
+Checking out, filling billing info, selecting payment methods.
 
-- Register and log in
-- Add pictures to their profile
-- Find and add friends to favorites
-- Remove ads via paid subscription
-- Create and display profile stories
 
-## **2. Design the Test Strategy**
+New Features to be Tested:
 
-### **Scope of Testing**
+Product Rating System - Users can rate products (1-5 stars) and leave written feedback.
+Age Verification for Alcoholic Products - Users need to confirm they’re 18+ before seeing alcohol.
+Shipping Cost Changes - Free shipping if a user spends enough; otherwise, a shipping fee applies.
 
-- **In Scope:**
-    - Register and login functionality
-    - Add pictures to profile
-    - Find friends
-    - Add friends to favorites
-    - Age restriction for account creation
-    - Paid subscription to remove ads
-    - Profile story
-- **Out of Scope:**
-    - Backend database operations not affecting the user interface
-    - Third-party ad services integration (unless directly related to ad removal for subscribed users)
 
-### **Type of Testing**
+2. Test Strategy
 
-- Functional Testing
-- Regression Testing
-- Performance Testing
-- Security Testing
-- Usability Testing
+Scope of Testing
 
-### **Risks and Issues**
+In Scope:Functional testing for the new features.
+UI/UX testing to ensure good usability.
+Security testing for age verification.
+Performance testing.
+Usability testing.
 
-- **Delays in development**
-    - Mitigation: Implement a buffer period in the schedule.
-- **Lack of test data**
-    - Mitigation: Create mock data sets for testing purposes.
-- **Resource unavailability**
-    - Mitigation: Identify backup resources.
+Out of Scope:
 
-### **Test Logistics**
+Deep backend security testing.
+Extremely rare edge cases.
 
-- **Jane Smith** - Test Manager
-- **John Doe** - QA Engineer (Functional and Regression Testing)
-- **Alice Johnson** - QA Engineer (Performance and Security Testing)
-- **Robert Brown** - QA Engineer (Usability Testing)
-- **Maria Garcia** - End User for UAT
+Type of Testing
 
-## **3. Define Test Objectives**
+Functional Testing
+UI Testing
+Security Testing
+Regression Testing
+Usability Testing
+Performance Testing
 
-### **Objectives**
 
-- **Functionality:** Ensure new features and existing functionalities work as intended.
-- **GUI:** Verify the graphical user interface for usability and consistency.
-- **Performance:** Confirm the system's performance under expected load conditions.
-- **Security:** Identify and mitigate potential security vulnerabilities.
-- **Usability:** Assess the user-friendliness of the platform.
+Risks and Issues
 
-### **Expected Outcomes**
+Delays in development → Plan buffer time.
+Lack of test data → Create mock data sets.
+Resource unavailability → Identify backup resources.
 
-- **Functionality:** All features perform correctly according to specifications.
-- **GUI:** The interface is intuitive, responsive, and free of defects.
-- **Performance:** The platform meets performance benchmarks under load.
-- **Security:** No significant vulnerabilities are detected.
-- **Usability:** Users can navigate and use the platform easily.
 
-## **4. Define Test Criteria**
+3. Test Objectives
+  
+GoalsFunctionality: 
 
-### **Suspension Criteria**
+Ensure new features work correctly.
+GUI: Ensure UI is intuitive and responsive.
+Performance: Verify the site runs smoothly under expected loads.
+Security: Ensure no loopholes in age verification.
+Usability: Ensure ease of use for all users.
 
-- Testing will be suspended if critical defects are found that block further testing.
-- Lack of necessary resources or test environment failures.
 
-### **Exit Criteria**
+Expected ResultsFunctionality:
 
-- All planned tests have been executed.
-- Run Rate: At least 95% of all test cases have been executed.
-- Pass Rate: At least 90% of executed test cases have passed.
-- All critical and high-priority defects have been resolved and closed.
-- No severity 1 or severity 2 defects are open.
-- Performance metrics meet the defined standards.
-- Security vulnerabilities have been identified and addressed.
-- User acceptance testing has been completed, and sign-off has been obtained.
+No unexpected errors.
+GUI: Responsive and free of major UI defects.
+Performance: Handles expected traffic without major slowdowns.
+Security: No easy workarounds for age verification.
+Usability: Users can navigate and complete tasks easily.
 
-## **5. Resource Planning**
 
-- **Human Resources:** QA team, development team, end users for UAT
-- **Hardware:** PCs, laptops, smartphones, tablets
-- **Software:** Browsers (Chrome, Firefox, Safari, Edge), operating systems (Windows, macOS, Android, iOS)
-- **Infrastructure:** Test environments, automation tools, performance testing tools
+4. Test Criteria
 
-## **6. Plan Test Environment**
+Suspension Criteria
 
-- **Test Environments:** Real devices installed with real browsers and operating systems to simulate user conditions.
-- **Environments:** Development (DEV), Testing (TEST), Acceptance (ACC), Production (PROD)
+Testing will be suspended if critical defects block further testing.
+Unavailability of required resources or test environment failures.
 
-## **7. Schedule and Estimation**
+Exit Criteria
 
-| Activity | Start Date | End Date | Environment | Responsible Person | Estimated Effort |
-| --- | --- | --- | --- | --- | --- |
-| Test Planning | 01/08/2024 | 05/08/2024 | All | Test Manager | 20 hours |
-| Test Case Design | 06/08/2024 | 15/08/2024 | All | QA Team | 40 hours |
-| Unit Testing | 16/08/2024 | 25/08/2024 | DEV | Development Team | 60 hours |
-| Integration Testing | 26/08/2024 | 30/08/2024 | TEST | QA Team | 30 hours |
-| System Testing | 01/09/2024 | 10/09/2024 | TEST | QA Team | 80 hours |
-| Regression Testing | 11/09/2024 | 15/09/2024 | TEST | QA Team | 40 hours |
-| Performance Testing | 16/09/2024 | 18/09/2024 | TEST | QA Team | 20 hours |
-| Security Testing | 19/09/2024 | 21/09/2024 | TEST | QA Team | 20 hours |
-| UAT | 22/09/2024 | 30/09/2024 | ACC | End Users | 50 hours |
-| Production Release | 01/10/2024 | 01/10/2024 | PROD | DevOps Team | 10 hours |
+All planned tests have been executed.
+At least 90% of executed test cases have passed.
+No critical or high-priority defects remain unresolved.
+User acceptance testing is completed and approved.
 
-## **8. Determine Test Deliverables**
 
-Documents/tools that must be created to support testing activities in the project:
+5. Resources
+  
+Human Resources: QA testers, developers, end users for UAT.
+Hardware: Computers, tablets, and smartphones.
+Software: Browsers, OSs, testing tools.
+Test Environment: DEV, TEST, ACC, PROD.
 
-- **Test Plan Document**
-- **Test Cases and Test Scripts**
-- **Test Data**
-- **Test Reports**
-- **Defect Reports**
-- **UAT Sign-off Document**
+
+6. Test EnvironmentReal devices for realistic testing.
+    
+Environments: Dev (DEV), Test (TEST), Acceptance (ACC), Production (PROD).
+
+7.[test_schedule.xlsx](https://github.com/user-attachments/files/18660395/test_schedule.xlsx)
+
+
+
+Test Cases & Test Scripts
+Test Data
+Test Reports
+Defect Reports
+UAT Sign-off Document
