@@ -67,8 +67,8 @@ The focus is on testing the following features:
 ### Test Cases  
 
 1. **Shipping Fee for Orders Below $20**  
-   - **Input:** Order total = $30.  
-   - **Expected Outcome:** Shipping fee is applied.  
+   - **Input:** Order total = $15.  
+   - **Expected Outcome:** Shipping fee is applied.   
 
 2. **Free Shipping at $20 Threshold**  
    - **Input:** Order total = $20.  
