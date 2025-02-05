@@ -42,7 +42,7 @@
 ## 3. Shipping Cost Changes  
 
 **Requirement:**  
-- Orders over $50 (example amount, configurable by admin) qualify for free shipping.  
+- Orders over $20 (example amount, configurable by admin) qualify for free shipping.  
 - Orders below this threshold will incur a shipping fee based on weight and destination.  
 - The shipping fee must be clearly displayed at checkout before final payment.  
 - Discounts applied after adding items to the cart should not affect free shipping eligibility.  
