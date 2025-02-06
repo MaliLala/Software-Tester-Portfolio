@@ -57,7 +57,7 @@
 
 | Step# | Action | Expected Outcome | Actual Outcome | OK/NOK | URL | Link to Issue |  
 |-------|--------|-----------------|----------------|--------|-----|--------------|  
-| 1 | Go to the Market Mate example Product page. | Product page appears | Product page appears | OK | [MarketMate URL] | |  
+| 1 | Go to the Market Mate example Product page. | Product page appears | Product page appears | OK | [(https://grocerymate.masterschool.com/product/66b3a57b3fd5048eacb47a4e)] | |  
 | 2 | Click on "Leave Review" | Review section opens | Review section opens | OK | /product/[ID] | |  
 | 3 | Fill in any review text and save review. | Review text is saved with stars | Only star evaluation is saved, no text saved | NOK | /product/[ID] | [Link to issue] |  
 
