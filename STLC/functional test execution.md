@@ -39,3 +39,38 @@
 ![Shipping cost over 20Eur](https://github.com/user-attachments/assets/8a8b23b1-fbfe-4942-b8a7-fc5838c99346)
 ![Shipping cost error when taking out items](https://github.com/user-attachments/assets/6bbba49f-060d-4551-bc96-a306b52c7851)
 
+
+
+
+# Bug Report  
+**Priority:** Medium  
+**Reporter:** Goran  
+**Date:** 05.02.2025  
+
+**Environment:** Test  
+**Application:** Market Mate  
+**Page:** Product Review  
+**Browser:** Chrome  
+**Operating System:** Windows  
+
+### Steps to Reproduce  
+
+| Step# | Action | Expected Outcome | Actual Outcome | OK/NOK | URL | Link to Issue |  
+|-------|--------|-----------------|----------------|--------|-----|--------------|  
+| 1 | Go to the Market Mate example Product page. | Product page appears | Product page appears | OK | [MarketMate URL] | |  
+| 2 | Click on "Leave Review" | Review section opens | Review section opens | OK | /product/[ID] | |  
+| 3 | Fill in any review text and save review. | Review text is saved with stars | Only star evaluation is saved, no text saved | NOK | /product/[ID] | [Link to issue] |  
+
+### Expected Result:  
+Product review text should be saved in the review body.
+
+### Actual Result:  
+No text is saved in the review body.
+
+
+![Review 1](https://github.com/user-attachments/assets/a802242b-d7d8-4915-aab5-cd1e98f94fbd)
+![Review 2](https://github.com/user-attachments/assets/1029bea2-4d18-470b-90d1-9d5b6e31057f)
+![Review 3](https://github.com/user-attachments/assets/ca3dfb46-4048-49be-8629-758ebbf4327d)
+![Review 4](https://github.com/user-attachments/assets/364a39e5-2799-4bc8-9464-214ab28e0f34)
+
+
