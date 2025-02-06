@@ -7,7 +7,7 @@
 
 | Step# | Action | Expected Outcome | OK/NOK | URL | Link to Issue |  
 |-------|--------|-----------------|--------|-----|--------------|  
-| 1 | Go to MarketMate homepage | Homepage appears | OK | [MarketMate URL] | |  
+| 1 | Go to MarketMate homepage | Homepage appears | OK | [[MarketMate URL](https://grocerymate.masterschool.com/store)] | |  
 | 2 | Search for an alcoholic product | A prompt appears asking for Date of Birth input | OK | /search | |  
 | 3a | Enter a valid Date of Birth (e.g., 18-08-2000, 18+ years) | The alcoholic product is displayed | OK | /product/[ID] | |  
 | 3b | Enter an invalid Date of Birth (e.g., 18-08-2006, exactly 17 years and 364 days old) | Access is denied with a message | OK | | |  
