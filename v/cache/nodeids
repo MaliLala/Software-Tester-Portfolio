@@ -1,0 +1,8 @@
+[
+  "parametrisation_and_fixtures.py::test_multiple_logins[locked_out_user]",
+  "parametrisation_and_fixtures.py::test_multiple_logins[performance_glitch_user]",
+  "parametrisation_and_fixtures.py::test_multiple_logins[problem_user]",
+  "parametrisation_and_fixtures.py::test_multiple_logins[standard_user]",
+  "user_registration_and_deletion.py::test_register_user",
+  "web_automation_selenium.py::test_login[standard_user-secret_sauce]"
+]
