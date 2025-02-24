@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e046d7aa-34a2-4a67-9fb0-8ac983f95e98" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Selenium.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/STLC/functional test execution.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/STLC/requirements.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/STLC/test case design.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/STLC/test env setup.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/STLC/test plan.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/STLC/test reporting.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parametrisation_and_fixtures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_registration_and_deletion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_automation_selenium.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "MaliLala"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MaliLala/Software-Tester-Portfolio.git",
+    "accountId": "43f03f60-963f-42d2-b35f-0c01bd749a94"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2tUTetbGaPnp5NADFGrdIs8Aci1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests in parametrisation_and_fixtures.py.executor": "Run",
+    "Python tests.Python tests in user_registration_and_deletion.py.executor": "Run",
+    "Python tests.Python tests in web_automation_selenium.py.executor": "Run",
+    "Python.Task-03.executor": "Run",
+    "Python.vlad.executor": "Run",
+    "Python.web_automation_selenium.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "b868ebec"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e046d7aa-34a2-4a67-9fb0-8ac983f95e98" name="Changes" comment="" />
+      <created>1740405751690</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740405751690</updated>
+    </task>
+    <servers />
+  </component>
+</project>
