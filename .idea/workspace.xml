@@ -5,22 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e046d7aa-34a2-4a67-9fb0-8ac983f95e98" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Selenium.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/STLC/functional test execution.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/STLC/requirements.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/STLC/test case design.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/STLC/test env setup.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/STLC/test plan.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/STLC/test reporting.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parametrisation_and_fixtures.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_registration_and_deletion.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_automation_selenium.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test automation/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test automation/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test automation/.idea/Selenium.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test automation/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test automation/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test automation/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test automation/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test automation/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test automation/STLC/functional test execution.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test automation/STLC/requirements.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test automation/STLC/test case design.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test automation/STLC/test env setup.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test automation/STLC/test plan.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test automation/STLC/test reporting.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test automation/parametrisation_and_fixtures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test automation/test-code.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test automation/user_registration_and_deletion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test automation/web_automation_selenium.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,21 +39,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "MaliLala"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MaliLala&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/MaliLala/Software-Tester-Portfolio.git",
-    "accountId": "43f03f60-963f-42d2-b35f-0c01bd749a94"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MaliLala/Software-Tester-Portfolio.git&quot;,
+    &quot;accountId&quot;: &quot;43f03f60-963f-42d2-b35f-0c01bd749a94&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2tUTetbGaPnp5NADFGrdIs8Aci1" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -66,7 +68,7 @@
     "Python.vlad.executor": "Run",
     "Python.web_automation_selenium.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "b868ebec"
+    "git-widget-placeholder": "main"
   }
 }]]></component>
   <component name="SharedIndexes">
