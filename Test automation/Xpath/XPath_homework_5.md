@@ -1,17 +1,17 @@
-## XPath for Oranges Product Actions
+# XPath Selectors for Oranges
 
-### Quantity Input for Oranges
+## 1️⃣ Quantity Input for Oranges
 ```xpath
-//input[@type='number' and contains(@name, 'quantity_')]
+//div[contains(@class, 'product-card') and .//p[contains(text(), 'Oranges')]]//input[@type='number']
 ```
 
-### Add to Cart Button for Oranges
+## 2️⃣ "Add to Cart" Button for Oranges
 ```xpath
-//button[contains(@class, 'btn-cart') and text()='Add to Cart']
+//div[contains(@class, 'product-card') and .//p[contains(text(), 'Oranges')]]//button[contains(@class, 'btn-cart')]
 ```
 
-### Add to Wishlist for Oranges
+## 3️⃣ "Add to Wishlist" Button for Oranges
 ```xpath
-//button[contains(@class, 'btn-outline-dark') and text()='❤']
+//div[contains(@class, 'product-card') and .//p[contains(text(), 'Oranges')]]//button[contains(@class, 'btn-outline-dark')]
 ```
 
