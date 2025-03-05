@@ -1,17 +1,15 @@
 # XPath Selectors for Oranges
 
-## 1️⃣ Quantity Input for Oranges
-```xpath
+## Quantity Input for Oranges
 //div[contains(@class, 'product-card') and .//p[contains(text(), 'Oranges')]]//input[@type='number']
-```
 
-## 2️⃣ "Add to Cart" Button for Oranges
-```xpath
+## "Add to Cart" Button for Oranges
 //div[contains(@class, 'product-card') and .//p[contains(text(), 'Oranges')]]//button[contains(@class, 'btn-cart')]
-```
 
-## 3️⃣ "Add to Wishlist" Button for Oranges
-```xpath
+## "Add to Wishlist" Button for Oranges
 //div[contains(@class, 'product-card') and .//p[contains(text(), 'Oranges')]]//button[contains(@class, 'btn-outline-dark')]
-```
 
+# XPath Selectors for Elements in Market Mate
+
+## Social Media Icon (First Icon)
+/*[@id="root"]//div[@class="social-icon-cont"]/div[1]
